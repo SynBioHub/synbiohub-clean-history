@@ -1,14 +1,14 @@
 package org.synbiohub;
 
-public class ConvertValidateResult extends Result
+public class PrepareSubmissionResult extends Result
 {
 	private boolean success;
 	private String log;
 	private String errorLog;
 	private String resultFilename;
 	
-	public ConvertValidateResult(
-			ConvertValidateJob job,
+	public PrepareSubmissionResult(
+			PrepareSubmissionJob job,
 			boolean success,
 			String resultFilename,
 			String log,
